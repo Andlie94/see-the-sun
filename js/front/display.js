@@ -1,4 +1,4 @@
-import { fetchApi } from "../fetcth/api.js";
+import { fetchApi, } from "../fetcth/api.js";
 
 function displayWeather() {
     const weatherElement = document.getElementById("weather");
@@ -34,6 +34,5 @@ function displayWeather() {
             weatherElement.textContent = "Kunne ikke hente værbeskrivelse";
         });
 }
-
 
 displayWeather();
